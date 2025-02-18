@@ -9,6 +9,7 @@ interface UserDate {
 const userData = '{ "isBirtdayData": true ,"ageData":40,"userNameData":"John"}';
 
 const arr = ['sss', 2, 2];
+
 const userObj: UserDate = JSON.parse(userData);
 
 console.log(userObj);
